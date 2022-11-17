@@ -27,30 +27,29 @@ function App() {
 
                 <article>
                     <span>Best seller</span>
-                    <img src='./assets/bag_1.png' alt={BagOne}/>
+                    <img src={BagOne} alt="pink-bag"/>
                     <p>The handy bag</p>
                     <h4>€ 400,-</h4>
-
                 </article>
 
 
                 <article>
                     <span> Best seller </span>
-                    <img src='./assets/bag_2.png' alt={BagTwo}/>
+                    <img src={BagTwo} alt="brown bag"/>
                     <p>The stylish bag</p>
                     <h4>€ 250,-</h4>
                 </article>
 
                 <article>
                     <span> New collection</span>
-                    <img src='./assets/bag_3.png' alt={BagThree}/>
+                    <img src= {BagThree} alt="forestgreen bag"/>
                     <p>The simple bag</p>
                     <h4>€ 300,-</h4>
                 </article>
 
                 <article>
                     <span>New collection</span>
-                    <img src='./assets/bag_4.png' alt={BagFour}/>
+                    <img src={BagFour} alt="orange bag"/>
                     <p>The trendy bag</p>
                     <h4>€ 150,-</h4>
                 </article>
