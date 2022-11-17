@@ -5,6 +5,7 @@ import BagOne from "./assets/bag_1.png";
 import BagTwo from "./assets/bag_2.png";
 import BagThree from "./assets/bag_3.png";
 import BagFour from "./assets/bag_4.png";
+
 function App() {
     return (
         <>
@@ -28,26 +29,30 @@ function App() {
                     <span>Best seller</span>
                     <img src='./assets/bag_1.png' alt={BagOne}/>
                     <p>The handy bag</p>
+                    <h4>€ 400,-</h4>
 
                 </article>
 
 
                 <article>
                     <span> Best seller </span>
-                        <img src='./assets/bag_2.png' alt={BagTwo} />
+                    <img src='./assets/bag_2.png' alt={BagTwo}/>
                     <p>The stylish bag</p>
+                    <h4>€ 250,-</h4>
                 </article>
 
                 <article>
                     <span> New collection</span>
-                    <img src='./assets/bag_3.png' alt={BagThree} />
+                    <img src='./assets/bag_3.png' alt={BagThree}/>
                     <p>The simple bag</p>
+                    <h4>€ 300,-</h4>
                 </article>
 
                 <article>
                     <span>New collection</span>
-                        <img src='./assets/bag_4.png' alt={BagFour} />
+                    <img src='./assets/bag_4.png' alt={BagFour}/>
                     <p>The trendy bag</p>
+                    <h4>€ 150,-</h4>
                 </article>
 
             </main>
