@@ -18,6 +18,39 @@ function App() {
                     toBeDisabled={true}
                 />
             </nav>
+
+            <main>
+                //1//
+                <article>
+                    <span>
+                        <p>Best seller</p>
+                    </span>
+                </article>
+                //2//
+
+                <article>
+                    <span>
+                        <p>Best seller</p>
+                    </span>
+                </article>
+                //3//
+
+                <article>
+                <span>
+                    <p>New collection</p>
+                </span>
+                </article>
+
+                //4//
+                <article>
+                    <span>
+                        <p>New collection</p>
+                    </span>
+                </article>
+
+            </main>
+
+
         </>
     );
 }
