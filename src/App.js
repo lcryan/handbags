@@ -5,6 +5,7 @@ import BagOne from "./assets/bag_1.png";
 import BagTwo from "./assets/bag_2.png";
 import BagThree from "./assets/bag_3.png";
 import BagFour from "./assets/bag_4.png";
+import Product from "./Components/Product";
 
 function App() {
     return (
@@ -25,34 +26,40 @@ function App() {
 
             <main>
 
-                <article>
-                    <span>Best seller</span>
-                    <img src={BagOne} alt="pink-bag"/>
-                    <p>The handy bag</p>
-                    <h4>€ 400,-</h4>
-                </article>
+
+                <Product
+                    spanText="Best seller"
+                    image={BagOne}
+                    title="pink hand bag"
+                    description="The handy bag"
+                    price="€ 400,-"
+                />
 
 
-                <article>
-                    <span> Best seller </span>
-                    <img src={BagTwo} alt="brown bag"/>
-                    <p>The stylish bag</p>
-                    <h4>€ 250,-</h4>
-                </article>
+                <Product
+                    spanText="Best seller"
+                    image={BagTwo}
+                    title="brown bag"
+                    description="The stylish bag"
+                    price="€ 250,-"
+                />
 
-                <article>
-                    <span> New collection</span>
-                    <img src= {BagThree} alt="forestgreen bag"/>
-                    <p>The simple bag</p>
-                    <h4>€ 300,-</h4>
-                </article>
+                <Product
+                    spanText="New collection"
+                    image={BagThree}
+                    title="forestgreen bag"
+                    description="The simple bag"
+                    price="€ 300,-"
+                />
 
-                <article>
-                    <span>New collection</span>
-                    <img src={BagFour} alt="orange bag"/>
-                    <p>The trendy bag</p>
-                    <h4>€ 150,-</h4>
-                </article>
+
+                <Product
+                    spanText="New collection"
+                    image={BagFour}
+                    title="orange bag"
+                    description="The trendy bag"
+                    price="€ 150,-"
+                />
 
             </main>
 
