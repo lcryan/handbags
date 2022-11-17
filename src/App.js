@@ -7,6 +7,10 @@ import BagThree from "./assets/bag_3.png";
 import BagFour from "./assets/bag_4.png";
 import Product from "./Components/Product";
 
+import Brand from "./assets/brand.png";
+import OurStory from "./assets/our_story.png";
+
+
 function App() {
     return (
         <>
@@ -25,7 +29,6 @@ function App() {
             </nav>
 
             <main>
-
 
                 <Product
                     spanText="Best seller"
@@ -52,7 +55,6 @@ function App() {
                     price="€ 300,-"
                 />
 
-
                 <Product
                     spanText="New collection"
                     image={BagFour}
@@ -62,7 +64,38 @@ function App() {
                 />
 
             </main>
+            <footer>
+                <section>
+                    <h2>The brand</h2>
+                    <p>Torem insum dolor sit amer. consectetur
+                        dalpisicing ell. Allquia culpa dolorun
+                        enim excepturi, fuga pariatur
+                        oroesentium aula sequi similique sunt</p>
+                    <p>Torem losum dolor sit amer. consecretur
+                        adipisicina elit. Aliquid culpa dolorum
+                        enim excepturi, fuga pariatur
+                        ordesentum alia sequi similique sunt</p>
+                </section>
 
+                <section>
+                    <img src={Brand} alt="brand-logo"/>
+                </section>
+
+                <section>
+                    <img src={OurStory} alt="two females embracing each other"/>
+                </section>
+
+                <section>
+                    <h2>Our story</h2>
+                    <p>Lorem losur 100 Sit amet. consecietu adipisicing elit. Blanditiis eligend
+                        exercitationem illo abore laboriosam
+                        nini omnis praesentum. Aspernatu
+                        cum deleniti excepturi itaque,
+                        Jaboriosam nisi rerum sunt. A
+                        rebellenaus tenetur veniam.</p>
+                </section>
+
+            </footer>
 
         </>
     );
