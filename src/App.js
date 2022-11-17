@@ -9,6 +9,7 @@ import Product from "./Components/Product";
 
 import Brand from "./assets/brand.png";
 import OurStory from "./assets/our_story.png";
+import Tiles from "./Components/Tiles";
 
 
 function App() {
@@ -65,35 +66,42 @@ function App() {
 
             </main>
             <footer>
-                <section>
-                    <h2>The brand</h2>
-                    <p>Torem insum dolor sit amer. consectetur
+
+                <Tiles
+                    title="The brand"
+                >
+                    <p> Torem insum dolor sit amer. consectetur
                         dalpisicing ell. Allquia culpa dolorun
                         enim excepturi, fuga pariatur
-                        oroesentium aula sequi similique sunt</p>
+                        oroesentium aula sequi similique sunt
+                    </p>
                     <p>Torem losum dolor sit amer. consecretur
                         adipisicina elit. Aliquid culpa dolorum
                         enim excepturi, fuga pariatur
                         ordesentum alia sequi similique sunt</p>
-                </section>
+                </Tiles>
 
-                <section>
-                    <img src={Brand} alt="brand-logo"/>
-                </section>
+                <Tiles
+                    image={Brand}
+                    alt="brand-logo"
+                />
 
-                <section>
-                    <img src={OurStory} alt="two females embracing each other"/>
-                </section>
+                <Tiles
+                    image={OurStory}
+                    alt="two females embracing each other"
+                />
 
-                <section>
-                    <h2>Our story</h2>
+                <Tiles
+                    title="Our story"
+                >
+
                     <p>Lorem losur 100 Sit amet. consecietu adipisicing elit. Blanditiis eligend
                         exercitationem illo abore laboriosam
                         nini omnis praesentum. Aspernatu
                         cum deleniti excepturi itaque,
                         Jaboriosam nisi rerum sunt. A
-                        rebellenaus tenetur veniam.</p>
-                </section>
+                        rebellenaus tenetur veniam</p>
+                </Tiles>
 
             </footer>
 
