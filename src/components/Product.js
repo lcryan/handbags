@@ -19,15 +19,4 @@ function Product(props) {
 
 export default Product;
 
-/*function Product(props) {
-    return (
-        <div>
-            <article className="Product">
-                <img src={props.image} alt={props.title}/>
-                <h2 className="product-name">{props.title}</h2>
-                <p className="product-description">{props.description}</p>
-            </article>
-        </div>);
-}
 
-export default Product;*/

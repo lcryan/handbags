@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import Button from "./Components/Button";
+import Button from "./components/Button";
 import BagOne from "./assets/bag_1.png";
 import BagTwo from "./assets/bag_2.png";
 import BagThree from "./assets/bag_3.png";
 import BagFour from "./assets/bag_4.png";
-import Product from "./Components/Product";
+import Product from "./components/Product";
 
 import Brand from "./assets/brand.png";
 import OurStory from "./assets/our_story.png";
-import Tiles from "./Components/Tiles";
+import Tiles from "./components/Tiles";
 
 
 function App() {
